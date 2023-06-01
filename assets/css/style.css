@@ -1,48 +1,59 @@
-ul {
-    list-style-type: none;
+body {
     margin: 0;
     padding: 0;
 }
 
-a {
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 5rem;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
+#body {
     font-family: Lato;
-}
-
-li {
-    display: inline;
-}
-
-nav {
-    text-align: center;
-    border-bottom: 2px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
-}
-
-img {
-    border: 2px solid black;
-    max-width: 60%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    color: #777777;
 }
 
 h1 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
 }
 
-figure {
-    margin-top: 40px;
+#logo {
+    float: left;
+    font-size: 280%;
+    line-height: 30px;
+}
+
+#direction {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    display: inline;
+}
+
+#logo, #direction{
+    line-height: 95px;
+}
+
+#direction li {
+    float: right;
+    margin-right: 30px;
+}
+
+#direction a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#direction a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+#baker-image{
+    height: 400px;
+    width: 100%;
+    background: url("assets/images/pexels-vaibhav-jadhav-3218467 (2).jpg") no-repeat center center;
+    background-position: left right;
+    background-size: 150% 200% 
 }
