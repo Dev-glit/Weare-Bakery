@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,40 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Weare Bakery</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
-          <h1>The Art of Bakery club</h1>
+            <h1 id="logo">The Art of Bakery club</h1>
         </a>
-       <nav>
-           <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="BakedProducts.html">BakedProducts</a>
-              </li>
-              <li>
-                <a href="Subscribe.html">Subscribe</a>
-              </li>
+        <nav>
+            <ul id="direction">
+                <li>
+                    <a href="Subscribe.html" class="direction3">Subscribe</a>
+                </li>
+                <li>
+                    <a href="BakedProducts.html">BakedProducts</a>
+                </li>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
             </ul>
-       </nav>
+        </nav>
     </header>
     <section>
-        <div>
-            <img src="assets/images/pexels-andrea-piacquadio-3756050.jpg">
+        <div id="Join-us">
+            <form>
+                <p>Log In</p>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"><br>
+                <input type="submit"><br>
+                <div>
+                    <a href="#" target="_blank">Register</a>
+                </div>
+            </form>
+              <img src="assets/images/pexels-andrea-piacquadio-3756050.jpg" alt="we can get you started" width="100%" >
         </div>
     </section>
 </body>
