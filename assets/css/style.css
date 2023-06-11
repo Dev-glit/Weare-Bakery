@@ -1,11 +1,5 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 #body {
     font-family: Lato;
-    color: #777777;
 }
 
 h1 {
@@ -13,6 +7,11 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
+}
+
+h2 {
+    letter-spacing: 2px;
+    color: black;
 }
 
 #logo {
@@ -28,7 +27,8 @@ h1 {
     display: inline;
 }
 
-#logo, #direction{
+#logo,
+#direction {
     line-height: 95px;
 }
 
@@ -50,7 +50,49 @@ h1 {
     border-bottom: 1px solid #777777;
 }
 
-#baker-image{
-    background-image: url("assets/images/nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg") no-repeat center center;
-    
+#members-engagement {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#left-about {
+    width: 50%;
+}
+
+#center-about {
+    width: 22%;
+    margin: 0 auto;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+}
+
+.center-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+#creativity {
+    background-image: url("assets/images/cream-170439_1280.jpg");
+    background-position: left;
+}
+
+#Get-ready {
+    background: url("assets/images/pexels-vaibhav-jadhav-3218467 (2).jpg");
+    height: 50%;
+    width: 100%;
+}
+
+#Join-us {
+    background: url("images/pexels-andrea-piacquadio-3756050.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
