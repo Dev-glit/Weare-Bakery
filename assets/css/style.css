@@ -19,6 +19,7 @@ h2 {
     float: left;
     font-size: 150%;
     line-height: 10px;
+    margin: 0;
 }
 
 #direction {
@@ -26,11 +27,12 @@ h2 {
     list-style-type: none;
     letter-spacing: 1px;
     display: inline;
+    padding-bottom: 20px;
 }
 
 #logo,
 #direction {
-    line-height: 25px;
+    line-height: 15px;
 }
 
 #direction li {
@@ -57,26 +59,27 @@ h2 {
 }
 
 #left-about {
-    width: 50%;
+    width: 20%;
 }
 
 #center-about {
-    width: 22%;
-    margin: 0 auto;
+    width: 42%;
+    float: left;
+    margin-left: 591px;
+    margin-bottom: 9px;
 }
 
 .left-about-heading {
-    width: 60%;
+    width: 30%;
     float: left;
     line-height: 20px;
-    clear: both;
 }
 
 .center-about-heading {
-    width: 50%;
+    width: 40%;
     float: center;
     line-height: 20px;
-    clear: both;
+    padding-top: 5px;
 }
 
 #logo-image {
@@ -86,8 +89,30 @@ h2 {
     max-width: 100%
 }
 
+#logo-outer {
+    overflow: visible;
+    padding-bottom: 1px;
+}
+
+
 .logo-image {
     max-height: none;
+}
+
+#eye-text {
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 130%;
+    float: right;
+}
+
+#Motdaug {
+    padding-right: 10px;
+}
+
+.creativity {
+    display: inline;
 }
 
 #creativity-image {
